@@ -1,0 +1,16 @@
+[2020-05-03 21:52:51.178] [sharedprocess] [info] main {"machineId":"79c6f318e60091b756ccee7cadde6a957004874a091d7eea9adc168f9d8a11c1","windowId":2}
+[2020-05-03 21:53:31.194] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-05-03 21:58:10.828] [sharedprocess] [info] Installing extension: tht13.python
+[2020-05-03 21:58:11.631] [sharedprocess] [info] Downloaded extension: tht13.python /tmp/ffe7eb3f-ce1f-46c5-be85-f84904cf4b54
+[2020-05-03 21:58:12.122] [sharedprocess] [info] Extracted extension to /root/.vscode-oss/extensions/.tht13.python-0.2.3: tht13.python
+[2020-05-03 21:58:12.122] [sharedprocess] [info] Renamed to /root/.vscode-oss/extensions/tht13.python-0.2.3
+[2020-05-03 21:58:12.123] [sharedprocess] [info] Installation completed. tht13.python
+[2020-05-03 21:58:12.142] [sharedprocess] [info] Extensions installed successfully: tht13.python
+[2020-05-03 21:58:22.026] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-05-03 21:58:49.182] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/42734406-1b51-4c37-993a-6206e4918e9e
+[2020-05-03 21:58:59.750] [sharedprocess] [info] Extracted extension to /root/.vscode-oss/extensions/.ms-python.python-2020.4.76186: ms-python.python
+[2020-05-03 21:58:59.751] [sharedprocess] [info] Renamed to /root/.vscode-oss/extensions/ms-python.python-2020.4.76186
+[2020-05-03 21:58:59.764] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-05-03 21:58:59.800] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2020-05-03 21:59:31.333] [sharedprocess] [info] Uninstalling extension: ms-python.python
+[2020-05-03 21:59:31.359] [sharedprocess] [info] Successfully uninstalled extension: ms-python.python
