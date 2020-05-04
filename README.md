@@ -5,7 +5,7 @@ usando algunos paquetes predefinidos y un gestor de ventanas llamado
 Qtile.
 
 # Lista de Paquetes:
-	-QTile -> https://github.com/SergioRibera/ConfigsArchLinux/wiki/Install-QTile
+	-QTile
 	-Alacritty
 	-Archey3
 	-Thunar
