@@ -5,7 +5,7 @@ usando algunos paquetes predefinidos y un gestor de ventanas llamado
 Qtile.
 
 # Lista de Paquetes:
-	
+	-QTile
 	-Alacritty
 	-Archey3
 	-Thunar
