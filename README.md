@@ -13,15 +13,15 @@ Qtile.
 
 # Detalles de Paquetes
 
-# - Alacritty
+### - Alacritty
 Es una consola más rápida para ejecutar comandos acelerada por GPU
 
-# - Archey3
+### - Archey3
 Es una extensión de la consola para mostrar el logotipo de ArchLinux junto a unos
 detalles técnicos de la máquina
 
-# - Thunar
+### - Thunar
 Es un explorador de archivos (El primero que pillé)
 
-# - Rofi
+### - Rofi
 Un menu rápido para acceder y abrir las aplicaciones instaladas de manera más rápida
