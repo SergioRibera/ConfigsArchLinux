@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 #PS1='[\u@\h \W]\$ '
+loadkeys es
 archey3
 PS1='\[\033[01;32m\]\u@\h\[\033[0;37m\]:\w\$ '
 
