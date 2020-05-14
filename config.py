@@ -95,7 +95,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod, "shift"], "k", lazy.layout.shuffle_up()),
 
     # Toggle between different layouts as defined below
-    ([mod, "control"], "Tab", lazy.next_layout()),
+    ([mod], "Tab", lazy.next_layout()),
 
     # Kill window
     ([mod], "w", lazy.window.kill()),
@@ -117,10 +117,10 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "m", lazy.spawn("rofi -show run")),
 
     # Window Nav
-    ([mod], "Tab", lazy.spawn("rofi -show")),
+    ([mod, "shift"], "m", lazy.spawn("rofi -show")),
 
     # Browser
-    ([mod], "n", lazy.spawn("tor")),
+    ([mod], "n", lazy.spawn("firefox")),
 
     # Visual Code
     ([mod], "v", lazy.spawn("code")),
@@ -325,18 +325,18 @@ laptop_widgets = [
     widget.Image(
         filename=img['primary']
     ),
-    #widget.TextBox(
-    #    **base(bg='primary'),
-    #    **text_box,
-    #    text=' ↯'
-    #),
-    #widget.Net(
-    #    **base(bg='primary'),
-    #    **net
-    #),
-    #widget.Image(
-    #    filename=img['secondary']
-    #),
+    widget.TextBox(
+        **base(bg='primary'),
+        **text_box,
+        text=' ↯'
+    ),
+    widget.Net(
+        **base(bg='primary'),
+        **net
+    ),
+    widget.Image(
+        filename=img['secondary']
+    ),
     *powerline_base()
  ]
 
