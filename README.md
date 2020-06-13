@@ -7,7 +7,7 @@ Qtile.
 
 	-QTile
 	-Alacritty
-	-Archey3
+	-Neofetch
 	-Thunar
 	-Rofi
 
@@ -17,12 +17,12 @@ Qtile.
 ### - Alacritty
 Es una consola más rápida para ejecutar comandos acelerada por GPU
 
-### - Archey3
-Es una extensión de la consola para mostrar el logotipo de ArchLinux junto a unos
+### - Neofetch
+Es un paquete que nos muestra en consola el logotipo de la distribucion junto a unos
 detalles técnicos de la máquina
 
 ### - Thunar
-Es un explorador de archivos (El primero que pillé)
+Es un explorador de archivos (El primero que pillé). Internamente tambien tiene fff para moverme más rápido por consola
 
 ### - Rofi
 Un menu rápido para acceder y abrir las aplicaciones instaladas de manera más rápida
