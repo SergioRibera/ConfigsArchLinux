@@ -1,19 +1,16 @@
-if [ -d "~/.config/Thunar"]
-then
+if [ -d "~/.config/Thunar" ]; then
   rm -fr ~/.config/Thunar
 fi
-if [ -d "~/.config/alacritty"]
-then
+if [ -d "~/.config/alacritty" ]; then
   rm -fr ~/.config/alacritty
 fi
-if [ -d "~/.config/qtile"]
-then
+if [ -d "~/.config/qtile" ]; then
   rm -fr ~/.config/qtile
 fi
-if [ -d "~/.config/rofi"]
-then
+if [ -d "~/.config/rofi" ]; then
   rm -fr ~/.config/rofi
 fi
+cd ConfigsArchLinux
 mv Configs/Thunar ~/.config
 mv Configs/alacritty ~/.config
 mv Configs/qtile ~/.config
@@ -30,6 +27,7 @@ cp Configs/uca.xml ~/.config
 cp .bashrc ~/
 cp cbg.sh ~/
 sudo pacman -Syy figlet
+cd ~
 figlet -c Fin!!!
 figlet -c Sigueme
 echo ""
