@@ -28,7 +28,7 @@ cp Configs/theme.py $HOME/.config
 cp Configs/uca.xml $HOME/.config
 cp .bashrc $HOME/
 cp cbg.sh $HOME/
-sudo pacman -Syy figlet
+sudo pacman -Syy figlet noto-fonts-emoji
 cd $HOME
 figlet -c Fin!!!
 figlet -c Sigueme
