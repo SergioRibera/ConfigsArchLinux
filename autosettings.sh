@@ -31,9 +31,9 @@ cp .bashrc ~/
 cp cbg.sh ~/
 sudo pacman -Syy figlet
 figlet -c Fin!!!
-echo ""
-echo ""
 figlet -c Sigueme
+echo ""
+echo ""
 echo "Youtube:      https://www.youtube.com/channel/UCm_CD6QqAEgtaHde9UycbuA"
 echo "Facebook:     https://www.facebook.com/Sergio-Ribera-102222487877688"
 echo "Blog:         blog.sergioribera.com"
